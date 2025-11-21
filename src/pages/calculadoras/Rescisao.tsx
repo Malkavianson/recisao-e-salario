@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Tooltip from '../../components/Tooltip';
-import { calcularRescisaoReal } from '../../utils/calculoRescisao';
+import { calcularRescisaoReal } from '../../utils/recisao.utils';
 import { NumericFormat } from 'react-number-format';
 
 export default function Rescisao() {
